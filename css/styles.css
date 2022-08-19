@@ -1,6 +1,7 @@
 :root {
     /* Fonts */
-    --main-fonts: Roboto, sans-serif; 
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
 
     /* Text colours */
      --main-txt-color:#212121;
@@ -10,5 +11,117 @@
 
      /* Others */
 
+}
+
+
+.page {
+    font-family:var(--main-font);
+    font-size: 18px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-color);
+}
+
+/* Reset */
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+.list {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/**   HEADER   **/
+
+
+.logoweb {
+    font-family:var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logostudio {
+    font-family:var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.list-li {
+    font-family:var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.list-link {
+    font-family:var(--main-font);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 16px;
+        color: #212121;
+}
+.list {
+    font-family:var(--main-font);
+    
+    color: #2196F3;
+
+}
+.list-number {
+    color:  #757575;
+}
+.main {
+    background-color: #2F303A;
+    color: #FFFFFF;
+text-align: center;
+
+}
+.btn {
+    font-family:inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+h3 {
+    font-family:var(--main-font);
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  font-size: 14px;
+  
+}
+p {
+    line-height: 24px; 
+    color: #757575;
+}
+h2 {
+    font-family:var(--main-font);
+    line-height: 42px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-size: 36px;
+    color: #212121;
 }
 
