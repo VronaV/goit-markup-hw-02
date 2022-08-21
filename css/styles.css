@@ -5,6 +5,8 @@
 
     /* Text colours */
      --main-txt-color:#212121;
+     --light-txt-color: #FFFF;
+     --akc-txt-color: #2196F3 ;
 
     /* Background colours */
     --main-bg-color:#F5F4FA;
@@ -13,16 +15,8 @@
 
 }
 
-.page {
-    font-family:var(--main-font);
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-
-    color: var(--main-txt-color);
-}
-
 /* Reset */
+
 
 .link {
     text-decoration: none;
@@ -36,8 +30,17 @@ a {
     color: currentColor;
 }
 
-/**   HEADER   **/
+.page {
+    font-family:var(--main-font);
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-color);
+}
 
+
+
+/**   HEADER   **/
 
 .logoweb {
     font-family:var(--secondary-font);
@@ -55,6 +58,30 @@ a {
     letter-spacing: 0.03em;
     color: #000000;
 }
+.logostudiof {
+    font-family:var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    background-color: #000000;
+    color:var(--light-txt-color);
+}
+.list:hover  {
+   
+    color:var(--akc-txt-color);
+}
+.list:focus:{
+    color:var(--akc-txt-color);
+}
+.link:hover {
+    color:var(--akc-txt-color);
+}
+.link:focus {
+    color:var(--akc-txt-color);
+}
+
+
 .list-li {
     font-family:var(--main-font);
     font-weight: 500;
@@ -71,11 +98,6 @@ a {
     letter-spacing: 0.02em;
     line-height: 1.14;
         color: #212121;
-}
-.list {
-    font-family:var(--main-font);
-    
-    color: #2196F3;
 }
 
 .list-number {
@@ -99,7 +121,7 @@ color: #FFFFFF;
 cursor: pointer;
 }
 
-h3 {
+.group-title {
     font-family:var(--main-font);
   font-weight: 700;
   line-height: 1.14;
@@ -108,19 +130,50 @@ h3 {
   color: #212121;
   font-size: 14px;
 }
-
-p {
-    line-height: 24px; 
+.group-text {
+    line-height: 1.14; 
     color: #757575;
 }
 
-h2 {
-    font-family:var(--main-font);
+.section-title {
     line-height: 1.16;
-    font-weight: 700;
-    letter-spacing: 0.03em;
     text-align: center;
     font-size: 36px;
-    color: #212121;
+}
+
+.team-tittle {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.work-title {
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+}
+.work-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.button {
+    cursor: pointer;
+    border: none;
+    background-color: var(--main-bg-color) ;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--main-txt-color)
+}
+.button:hover {
+    color: var(--akc-txt-color);
+}
+.button:focus {
+    color: var(--akc-txt-color);
 }
 
