@@ -16,7 +16,10 @@
 }
 
 /* Reset */
-
+.listone {
+    text-decoration: none;
+    list-style: none;
+}
 .link {
     text-decoration: none;
     color: currentColor;
@@ -49,7 +52,6 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--akc-txt-color);
 }
 
@@ -58,22 +60,20 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--main-txt-color)
 }
 
 .list {
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-txt-color);
 }
+
 .header-link-nav {
     color: var(--akc-txt-color);
 }
 .header-link-item {
-font-size: 14px;
 line-height: 1.4;
 letter-spacing: 0.02em;
 color: var(--second-text-color);
@@ -106,38 +106,34 @@ background-color: #2F303A;
 }
 
 .section-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-txt-color);
-
 }
+
 .text {
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: var(--second-text-color) ;
 }
-
 .hero-button {
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color:var(--main-bg-color);
-background-color: var(--akc-txt-color);
-}
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--main-bg-color);
+    background-color: var(--akc-txt-color);
+    }
 .hero-button:hover {
-    background-color:var(--second-text-color);
-}
+        background-color:var(--second-text-color);
+    }
+    .hero-button:focus {
+        background-color:var(--second-text-color);
+    }
 
 .product-name {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
@@ -147,47 +143,56 @@ background-color: var(--akc-txt-color);
 .product-txt {
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em; 
     color: var(--second-text-color);
 
 }
 
 .menu-button {
+    font-family: inherit;
     cursor: pointer;
     border: none;
-    font-weight: 500;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-txt-color);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+     color: #212121;
 }
 .menu-button:hover,
 .menu-button:focus {
     background-color: var(--akc-txt-color);
+    color: var(--light-txt-color);
 }
-
+.menu-button-light { font-family: inherit;
+    cursor: pointer;
+    border: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--main-txt-color);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    background-color: var(--akc-txt-color);
+    color: var(--light-txt-color);
+}
 .subtitle {
-font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--main-txt-color);
 }
 
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    color:var(--main-txt-color);
-    
+    line-height: 1.18;  
 }
+
 .team-position {
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
     color:var(--second-text-color); 
 }
 
@@ -196,16 +201,12 @@ color: var(--main-txt-color);
 }
 
 .footer-link-location {
-   font-size: 14px;
    line-height: 1.71;
-   letter-spacing: 0.03em;
    color: var(--light-txt-color);
 }
 .foter-link-item {
     text-decoration: none;
-   font-size: 14px;
    line-height: 1.71;
-   letter-spacing: 0.03em;
    color: var(--second-text-color);
 }
 .logostudiof {
@@ -213,7 +214,6 @@ color: var(--main-txt-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color:var(--light-txt-color);
 }
 .foter-link-item:hover {
@@ -221,9 +221,3 @@ color: var(--main-txt-color);
 }
 .foter-link-item:focus {
     color: var(--akc-txt-color);}
-
-.footer-link-location:hover {
-    color: var(--akc-txt-color);
-}
-.footer-link-location:focus {
-     color: var(--akc-txt-color);}
